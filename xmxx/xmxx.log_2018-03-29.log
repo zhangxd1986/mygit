@@ -1,0 +1,1996 @@
+
+2018-03-29 16:18:47
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 16:22:24
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1235
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1235
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1235
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1235
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1235
+
+2018-03-29 16:22:36
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:23:17
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:26:36
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1235
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1235
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1235
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1235
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1235
+
+2018-03-29 16:26:44
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:27:45
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:31:34
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8087 already in use!
+java.lang.IllegalStateException: port: 8087 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-29 16:31:47
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12350
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12352
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:31:52
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:32:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:41:46
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:41:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:42:51
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:43:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:45:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:45:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:46:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:46:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:47:11
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12350
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12352
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 12354
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 12354
+
+2018-03-29 16:47:27
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:48:26
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 12354
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 12354
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 12354
+
+2018-03-29 16:48:43
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:03
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:05
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:06
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:07
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:08
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:09
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1230
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1232
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = 1234
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = 1234
+
+2018-03-29 16:49:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = 1234
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = 1234
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = 1234
+
+2018-03-29 16:51:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 16:51:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 16:51:59
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 16:52:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 16:53:50
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 16:54:44
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0002,msg=等待匹配对手]
+
+2018-03-29 17:15:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:15:31
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:16:14
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:20:20
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:20:44
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:20:58
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:06
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:07
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:08
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:09
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:10
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,code=0,msg=成功]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:21:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0,msg=成功]
+
+2018-03-29 17:53:30
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8087 already in use!
+java.lang.IllegalStateException: port: 8087 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-29 17:53:52
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:53:55
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=0,msg=成功]
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-03-29 17:55:17
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-29 18:00:00
+[INFO]-[Thread: cron4j::scheduler[caa322155ee5c1223deacfda00000162712d89a920682906]::executor[caa322155ee5c12267adffb100000162713325037bbb3148]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-29 18:00:00
+[INFO]-[Thread: cron4j::scheduler[caa322150a8208295ee5c12200000162710a5c6500b58a9b]::executor[caa322150a8208290e81789d000001627133250301886b14]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-29 18:01:00
+[INFO]-[Thread: cron4j::scheduler[caa322155ee5c1223deacfda00000162712d89af3ae75e3e]::executor[caa322155ee5c1227a9ca9060000016271340f637de91b66]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-29 18:01:00
+[INFO]-[Thread: cron4j::scheduler[caa322150a8208295ee5c12200000162710a5c6c51e615b8]::executor[caa322150a8208296919b0f30000016271340f63163ecfc1]]-[com.mingsu.job.Task2.run()]: 222222

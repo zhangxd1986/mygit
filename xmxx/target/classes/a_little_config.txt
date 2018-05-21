@@ -1,0 +1,14 @@
+#jdbcUrl = jdbc:mysql://10.211.55.5:3306/latteread_test?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+#user = latteread
+#password = latte2017HSIL
+
+jdbcUrl = jdbc:mysql://rdsfj594s2j057z438z5o.mysql.rds.aliyuncs.com:3306/lt_test_xmxx
+user = lt_test_xmxx
+password = lt_test_xmxx_20180320
+devMode = true
+
+
+#redis.ip = 10.211.55.5
+redis.ip = biz.redis.host
+redis.port = 6379
+redis.timeout = 2000

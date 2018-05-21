@@ -1,0 +1,118 @@
+
+2018-03-30 18:05:21
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-30 18:05:25
+[ERROR]-[Thread: qtp1031479691-23]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid1
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:86)
+	at com.jfinal.plugin.redis.Cache.getJedis(Cache.java:1245)
+	at com.jfinal.plugin.redis.Cache.get(Cache.java:89)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused
+	at redis.clients.jedis.Connection.connect(Connection.java:155)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:83)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1643)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:861)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:149)
+	... 41 more
+
+2018-03-30 18:06:45
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid1
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4133430103120110010144233033302304423244240214310020331032042113400310101430043323312421242420132131,initStarOpponent=0101214121400403204343332331444442332432232301214342402333223401401304232443014123330223042340132323,code=0,msg=成功]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0303322134411023401202300130022023044413224144411334034004241244220331341414112041340341323121243204,initStarOpponent=3431422114320314443043330020104043101110344023212304324333231024122402131144010043134134204131241210,code=0,msg=成功]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-03-30 18:06:48
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2103332301334104124444310313202113302000330130121041311102124401134423434422404340230324214041422201,initStarOpponent=3232304324141204244003303243324213103342122322341322043312324344343413301430104344320214233023102140,code=0,msg=成功]
+
+2018-03-30 19:00:00
+[INFO]-[Thread: cron4j::scheduler[c2aca4883deacfda02f410f800000162765e69d5423b0815]::executor[c2aca4883deacfda588cfc480000016276906f84449f49a2]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-30 19:01:00
+[INFO]-[Thread: cron4j::scheduler[c2aca4883deacfda02f410f800000162765e69db4b22da94]::executor[c2aca4883deacfda780e8e8600000162769159e11b7b4320]]-[com.mingsu.job.Task2.run()]: 222222

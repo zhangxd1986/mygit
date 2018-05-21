@@ -1,0 +1,3513 @@
+
+2018-04-03 11:41:09
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 11:43:18
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 11:43:18
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3422543545142315323345431541324514344523315332123144521125113321455151552455331432124124221531312313,initStarOpponent=3412322155245334325524333352213232412151223243423455431453152341353532353232253333341323511212123434,code=0,msg=成功]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2513411313354315441252525521333224141155522432151443524444222111134351242233344152421343313313211234,initStarOpponent=1242334341315425452123421521454154543134123525433254332255552552332522413351545454221435212421151324,code=0,msg=成功]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=5224551244444124211425143452412513425143532253354313434455521254425112314443345432522221113222331414,initStarOpponent=5234455431253235234353245134241234221141443335333551553213114143432231145151154431441355113215544323,code=0,msg=成功]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3412322155245334325524333352213232412151223243423455431453152341353532353232253333341323511212123434,initStarOpponent=3422543545142315323345431541324514344523315332123144521125113321455151552455331432124124221531312313,code=0,msg=成功]
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 11:43:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1242334341315425452123421521454154543134123525433254332255552552332522413351545454221435212421151324,initStarOpponent=2513411313354315441252525521333224141155522432151443524444222111134351242233344152421343313313211234,code=0,msg=成功]
+
+2018-04-03 11:44:21
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle set winner = #winner#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:44:21
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=0,msg=成功]
+
+2018-04-03 11:49:21
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5454155211554231524542512424212551151122423115412332213445325145234514234443552532255142334212232243,initStarOpponent=5525532353315334235332242144423421255331324144424313534114134352154232154441531214412254241213425444,code=0,msg=成功]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4344445251141323451522553541315122123241333221341531534444342253453353553222355512245313111522514324,initStarOpponent=1132242511521535152251114254532354531435452521435225532211323122533315144113232532444553534114254341,code=0,msg=成功]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=3323243322234254435245545452555132351523325532425211145354351125415514341113534531353554332222122312,initStarOpponent=1311422355122344413141531313253513344344431155215424412142113133423321534112113322143412545223334425,code=0,msg=成功]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5525532353315334235332242144423421255331324144424313534114134352154232154441531214412254241213425444,initStarOpponent=5454155211554231524542512424212551151122423115412332213445325145234514234443552532255142334212232243,code=0,msg=成功]
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 11:49:25
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1132242511521535152251114254532354531435452521435225532211323122533315144113232532444553534114254341,initStarOpponent=4344445251141323451522553541315122123241333221341531534444342253453353553222355512245313111522514324,code=0,msg=成功]
+
+2018-04-03 11:49:40
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:49:40
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 11:50:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:50:01
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 11:53:36
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2115221332551223233422241153151242131424223133121235232452135542341514134455315454233315244541552532,initStarOpponent=4145134512551455153445152415542114135535542211444352354314525345412133545531453124115342122454233111,code=0,msg=成功]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1142323244335355451151233544241414455213535541551442542115424444341521514251154442145441211153154355,initStarOpponent=4215523511345343422115425233125131231315311225553511243424144352225541413534331425513525455512333514,code=0,msg=成功]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2123523524342325111141325254434514535154434224321255113125444145133434244155234544432254513312444251,initStarOpponent=2353513513411552253323324222341313544534432223155531454554243252322112443443151411344215315414541245,code=0,msg=成功]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4145134512551455153445152415542114135535542211444352354314525345412133545531453124115342122454233111,initStarOpponent=2115221332551223233422241153151242131424223133121235232452135542341514134455315454233315244541552532,code=0,msg=成功]
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 11:53:41
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4215523511345343422115425233125131231315311225553511243424144352225541413534331425513525455512333514,initStarOpponent=1142323244335355451151233544241414455213535541551442542115424444341521514251154442145441211153154355,code=0,msg=成功]
+
+2018-04-03 11:54:05
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:54:06
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 11:55:02
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 11:55:37
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:55:37
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 11:56:54
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 11:56:59
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 11:56:59
+[ERROR]-[Thread: qtp47433088-22]-[com.jfinal.core.ActionHandler.handle()]: /battleing?position=65&score=5000&deviceid=deviceid13
+com.jfinal.plugin.activerecord.ActiveRecordException: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:698)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:713)
+	at com.jfinal.plugin.activerecord.Db.update(Db.java:494)
+	at com.mingsu.service.UserService.updateBattle(UserService.java:60)
+	at com.mingsu.controller.IndexController.battleing(IndexController.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:667)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:696)
+	... 34 more
+
+2018-04-03 12:01:18
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4125254324144123222451335542314524445351311432254511534544552554432512114514312525114453114525511553,initStarOpponent=5554232553134555453513243213241311432135223121314252251331443311553511223454133233452554323423335425,code=0,msg=成功]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5235145553523234415452445424122212442534254421342254435525131355143141241213341322214142554122532115,initStarOpponent=4131334222432321324255333112513351211244541212142323143551423421115153343341142535344234534112115421,code=0,msg=成功]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2312151113521142552342431244241313143232135325435255314421555242315232251112551423335155312431551543,initStarOpponent=1144352355444453411344211422145244144344415114231225233452234422342244453344452551233435112215143153,code=0,msg=成功]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5554232553134555453513243213241311432135223121314252251331443311553511223454133233452554323423335425,initStarOpponent=4125254324144123222451335542314524445351311432254511534544552554432512114514312525114453114525511553,code=0,msg=成功]
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 12:01:23
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4131334222432321324255333112513351211244541212142323143551423421115153343341142535344234534112115421,initStarOpponent=5235145553523234415452445424122212442534254421342254435525131355143141241213341322214142554122532115,code=0,msg=成功]
+
+2018-04-03 12:01:39
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where winner is null
+and (deviceidA = #deviceidA# and deviceidB = #deviceidB# or deviceidA = #deviceidB# and deviceidB = #deviceidA#)
+
+
+2018-04-03 12:01:39
+[ERROR]-[Thread: qtp47433088-23]-[com.jfinal.core.ActionHandler.handle()]: /battleing?position=65&score=5000&deviceid=deviceid13
+com.jfinal.plugin.activerecord.ActiveRecordException: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:698)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:713)
+	at com.jfinal.plugin.activerecord.Db.update(Db.java:494)
+	at com.mingsu.service.UserService.updateBattle(UserService.java:60)
+	at com.mingsu.controller.IndexController.battleing(IndexController.java:198)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:667)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:696)
+	... 34 more
+
+2018-04-03 12:03:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 12:03:50
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 12:03:50
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 13:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d0b16dedf0a8208290000016289acbcc230753973]::executor[d68fb29d0b16dedf2b1ecc130000016289e0488a46f532e0]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 13:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d0b16dedf0a8208290000016289acbcc832fc3fb1]::executor[d68fb29d0b16dedf3ca36c7e0000016289e132e736f08fd6]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 14:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d0b16dedf0a8208290000016289acbcc230753973]::executor[d68fb29d0b16dedf6bb40d64000001628a173703319887cf]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 14:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d0b16dedf0a8208290000016289acbcc832fc3fb1]::executor[d68fb29d0b16dedf2a18fdd7000001628a182161744fe68f]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 14:03:49
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8086 already in use!
+java.lang.IllegalStateException: port: 8086 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-04-03 14:04:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:04:10
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:04:10
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:04:10
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:04:10
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:04:10
+[ERROR]-[Thread: qtp1031479691-21]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:161)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:06:52
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:06:57
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:06:57
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:06:57
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:06:57
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+
+
+2018-04-03 14:06:57
+[ERROR]-[Thread: qtp491476979-22]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:161)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:09:19
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:09:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:09:35
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:09:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:09:35
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:09:35
+[ERROR]-[Thread: qtp491476979-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:163)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:10:17
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:10:26
+[INFO]-[Thread: qtp1060761436-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:10:26
+[INFO]-[Thread: qtp1060761436-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:10:26
+[INFO]-[Thread: qtp1060761436-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:10:26
+[INFO]-[Thread: qtp1060761436-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:11:18
+[ERROR]-[Thread: qtp1060761436-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:163)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:11:34
+[INFO]-[Thread: qtp1060761436-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:11:34
+[INFO]-[Thread: qtp1060761436-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:11:34
+[INFO]-[Thread: qtp1060761436-27]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:11:34
+[INFO]-[Thread: qtp1060761436-27]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:12:26
+[ERROR]-[Thread: qtp1060761436-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:163)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:12:37
+[INFO]-[Thread: qtp1060761436-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:12:37
+[INFO]-[Thread: qtp1060761436-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:12:37
+[INFO]-[Thread: qtp1060761436-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:12:37
+[INFO]-[Thread: qtp1060761436-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:13:25
+[ERROR]-[Thread: qtp1060761436-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:163)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Invalid argument value: java.lang.ArrayIndexOutOfBoundsException
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3835)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3565)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+Caused by: java.lang.ArrayIndexOutOfBoundsException: 0
+	at com.mysql.jdbc.PreparedStatement.setBinaryStream(PreparedStatement.java:2832)
+	at com.mysql.jdbc.PreparedStatement.setSerializableObject(PreparedStatement.java:3832)
+	... 42 more
+
+2018-04-03 14:16:24
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:16:29
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8086 already in use!
+java.lang.IllegalStateException: port: 8086 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-04-03 14:16:33
+[INFO]-[Thread: qtp1148651321-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:16:33
+[INFO]-[Thread: qtp1148651321-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:16:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:16:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = #deviceidA# and deviceidB = #deviceidB#) or (deviceidA = #deviceidB# and deviceidB = #deviceidA# ))
+order by create_time desc
+limit 1
+
+
+2018-04-03 14:16:55
+[ERROR]-[Thread: qtp1148651321-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid12
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.queryBattleID(UserService.java:60)
+	at com.mingsu.controller.IndexController.setBattleInfo(IndexController.java:161)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:103)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: Parameter index out of range (1 > number of parameters, which is 0).
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.checkBounds(PreparedStatement.java:3327)
+	at com.mysql.jdbc.PreparedStatement.setInternal(PreparedStatement.java:3312)
+	at com.mysql.jdbc.PreparedStatement.setString(PreparedStatement.java:4027)
+	at com.mysql.jdbc.PreparedStatement.setObject(PreparedStatement.java:3531)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.setObject(DruidPooledPreparedStatement.java:476)
+	at com.jfinal.plugin.activerecord.dialect.Dialect.fillStatement(Dialect.java:226)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:79)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+
+2018-04-03 14:20:18
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:36:44
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 14:36:51
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:36:51
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:36:51
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:36:51
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 14:37:19
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2514234352212523135231331454425152433352354514355124323141314525145233533344225255453355244424545334,initStarOpponent=4551122434523153451524354513453452223543443213555114343454422532254533555312541315513554532134244122,id=11,code=0,msg=成功]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5453111255251323531454432312132334343321225232555153552543153322411321335351151241423152533512433345,initStarOpponent=3213321114421251145151515145134425411153451523215213514115141353553534412143334342151154141444513232,id=12,code=0,msg=成功]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2145225534142152312355134231441531211324334324235154513341331154343515451132515512112533415122313325,initStarOpponent=5244524455525351135544323155425522523125133325521215152441351222454513554532522213444543553351122511,id=13,code=0,msg=成功]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-25]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=1543513541133333434114133541334415354324455522514431144252424211211512511534223534233231224314521444,initStarOpponent=3555325254521545225443412355524243241421151115221413115252243143212152142444344322111534342534431241,id=14,code=0,msg=成功]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3213321114421251145151515145134425411153451523215213514115141353553534412143334342151154141444513232,initStarOpponent=5453111255251323531454432312132334343321225232555153552543153322411321335351151241423152533512433345,id=0,code=0,msg=成功]
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 14:37:50
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5244524455525351135544323155425522523125133325521215152441351222454513554532522213444543553351122511,initStarOpponent=2145225534142152312355134231441531211324334324235154513341331154343515451132515512112533415122313325,id=0,code=0,msg=成功]
+
+2018-04-03 14:40:57
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 14:40:57
+[INFO]-[Thread: qtp240659991-26]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 14:41:21
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 14:41:21
+[INFO]-[Thread: qtp240659991-27]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1003,msg=游戏已结束]
+
+2018-04-03 15:05:08
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:05:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:05:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:05:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:05:26
+[ERROR]-[Thread: qtp1031479691-23]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid1143e
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'lt_test_xmxx.xmxx_user_score' doesn't exist
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:132)
+	at com.mingsu.service.UserService.scoreExsit(UserService.java:48)
+	at com.mingsu.controller.IndexController.login(IndexController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'lt_test_xmxx.xmxx_user_score' doesn't exist
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1966)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:80)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 36 more
+
+2018-04-03 15:06:28
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:06:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:06:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:06:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:06:33
+[INFO]-[Thread: qtp1148651321-24]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,'0'
+				) 
+
+
+2018-04-03 15:06:33
+[ERROR]-[Thread: qtp1148651321-24]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid1143e
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'hsman' in 'field list'
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:647)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:657)
+	at com.jfinal.plugin.activerecord.Db.save(Db.java:463)
+	at com.mingsu.service.UserService.initUserScore(UserService.java:66)
+	at com.mingsu.controller.IndexController.login(IndexController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'hsman' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:253)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:623)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:645)
+	... 34 more
+
+2018-04-03 15:07:52
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:08:34
+[INFO]-[Thread: qtp1652249164-25]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:08:34
+[INFO]-[Thread: qtp1652249164-25]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:08:34
+[INFO]-[Thread: qtp1652249164-25]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:08:34
+[INFO]-[Thread: qtp1652249164-25]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,'0'
+				) 
+
+
+2018-04-03 15:08:34
+[ERROR]-[Thread: qtp1652249164-25]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid13
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'hsman' in 'field list'
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:647)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:657)
+	at com.jfinal.plugin.activerecord.Db.save(Db.java:463)
+	at com.mingsu.service.UserService.initUserScore(UserService.java:66)
+	at com.mingsu.controller.IndexController.login(IndexController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'hsman' in 'field list'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:943)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:253)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:623)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:645)
+	... 34 more
+
+2018-04-03 15:09:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:09:52
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:09:52
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:09:52
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:09:52
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,'0'
+				) 
+
+
+2018-04-03 15:09:53
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.gradeExsit()]: +++in UserService gradeExsit sql = select count(1) from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 15:09:53
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,'1'
+				) 
+
+
+2018-04-03 15:09:53
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 15:10:40
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,'0'
+				) 
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.gradeExsit()]: +++in UserService gradeExsit sql = select count(1) from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 15:10:46
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 15:15:45
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8086 already in use!
+java.lang.IllegalStateException: port: 8086 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-04-03 15:17:33
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.scoreExsit()]: +++in UserService scoreExsit sql = select count(1) from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.gradeExsit()]: +++in UserService gradeExsit sql = select count(1) from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 15:17:38
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 15:18:17
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 15:19:45
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:21:26
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5211123211323222431513224415515522515233231233515344344435252241344431232253325544313121152235332423,initStarOpponent=2325134412512521125451434545211313311111454331252343222253455534115244414333325145334423141552123515,id=15,code=0,msg=成功]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2432213224553425312415423133322152554525345123411235313455551153335124333231324452252433325243341425,initStarOpponent=3315553323155435153321555553422534545222524523433153242335352333423555134453413122423231143254414141,id=16,code=0,msg=成功]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2223131112245353424514442345215315355144455535515231144352344241231525351454553541534234531341243332,initStarOpponent=2143213534155452542252143311311513143121345242355433423452352313344512324124352552533133144125322535,id=17,code=0,msg=成功]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2325134412512521125451434545211313311111454331252343222253455534115244414333325145334423141552123515,initStarOpponent=5211123211323222431513224415515522515233231233515344344435252241344431232253325544313121152235332423,id=0,code=0,msg=成功]
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 15:21:30
+[INFO]-[Thread: qtp1373436613-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3315553323155435153321555553422534545222524523433153242335352333423555134453413122423231143254414141,initStarOpponent=2432213224553425312415423133322152554525345123411235313455551153335124333231324452252433325243341425,id=0,code=0,msg=成功]
+
+2018-04-03 15:28:55
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1224532144451351451342323213112324354324212523555345151124251355521122544555144322121253225341334122,initStarOpponent=2234552135521315552432351552431225544335434445112452153111353353445245143252115454434115114322442434,id=18,code=0,msg=成功]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3253155324344414555251551535243532355525522525411434452135415324453231411444514543555322214153312454,initStarOpponent=4321131213242535332151212251555524125432225314313555244534443314453344431434433113322233513222412443,id=19,code=0,msg=成功]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=3345323553241434244525254153445133412125423423554553255334433114514512325511334241335455155544324323,initStarOpponent=3135343452534343535452234121343244524153351111233423152255154152555215215133315421444523423124322421,id=20,code=0,msg=成功]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2234552135521315552432351552431225544335434445112452153111353353445245143252115454434115114322442434,initStarOpponent=1224532144451351451342323213112324354324212523555345151124251355521122544555144322121253225341334122,id=18,code=0,msg=成功]
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:29:11
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4321131213242535332151212251555524125432225314313555244534443314453344431434433113322233513222412443,initStarOpponent=3253155324344414555251551535243532355525522525411434452135415324453231411444514543555322214153312454,id=19,code=0,msg=成功]
+
+2018-04-03 15:49:09
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3221413321442331434513244142433251314153343355514321142515111254211343543424311242143121344323111214,initStarOpponent=2522421311222534313212112454444222222524115141442114541125254431533442122525541514241212413215231331,id=21,code=0,msg=成功]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3321412111444123311111345452251235321152343552124233533544542324341553315123314334333414513535115555,initStarOpponent=1311225355154325254254322331345415243242453232232513254434421415132345242131241554152344512143514454,id=22,code=0,msg=成功]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=1123142534341111552314345315135255525415334225215312521152512323542315154313322322445551312424532252,initStarOpponent=4325335111521112413234231243223441515553154344241314453121333442543352455155445333442234325254443133,id=23,code=0,msg=成功]
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 15:49:19
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:49:20
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2522421311222534313212112454444222222524115141442114541125254431533442122525541514241212413215231331,initStarOpponent=3221413321442331434513244142433251314153343355514321142515111254211343543424311242143121344323111214,id=21,code=0,msg=成功]
+
+2018-04-03 15:49:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 15:49:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 15:49:20
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1311225355154325254254322331345415243242453232232513254434421415132345242131241554152344512143514454,initStarOpponent=3321412111444123311111345452251235321152343552124233533544542324341553315123314334333414513535115555,id=22,code=0,msg=成功]
+
+2018-04-03 15:49:33
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 15:49:33
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = score + #score#,edit_time = #edit_time#
+where deviceid = #deviceid#
+
+
+2018-04-03 15:49:33
+[ERROR]-[Thread: qtp47433088-22]-[com.jfinal.core.ActionHandler.handle()]: /battleing?id=13&position=65&score=5000&deviceid=deviceid13
+com.jfinal.plugin.activerecord.ActiveRecordException: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:698)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:713)
+	at com.jfinal.plugin.activerecord.Db.update(Db.java:494)
+	at com.mingsu.service.UserService.updateUserScore(UserService.java:97)
+	at com.mingsu.controller.IndexController.setScore(IndexController.java:257)
+	at com.mingsu.controller.IndexController.battleing(IndexController.java:234)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.jfinal.plugin.activerecord.ActiveRecordException: You can't update record without Primary Key, id can not be null.
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:667)
+	at com.jfinal.plugin.activerecord.DbPro.update(DbPro.java:696)
+	... 35 more
+
+2018-04-03 16:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e461b441820]::executor[d68fb29d3deacfda234e0be1000001628a85140610f88527]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 16:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e4b694f6ccb]::executor[d68fb29d3deacfda4754aa5a000001628a85fe6312709428]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 16:05:41
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 16:05:46
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:05:46
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:05:46
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:05:46
+[ERROR]-[Thread: qtp491476979-23]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid11
+java.lang.NullPointerException
+	at com.mingsu.controller.IndexController.login(IndexController.java:56)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-03 16:07:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 16:07:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:31
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:07:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:33
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:07:33
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:07:33
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:07:33
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:13:28
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8088 already in use!
+java.lang.IllegalStateException: port: 8088 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3221131543431241512535525515431452413355351251542222422553422231423241115324443145243344345453525254,initStarOpponent=4352232225322311131351555551521125315433123412452544144252424333542545342445122312322134152112411234,id=24,code=0,msg=成功]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2152542134125531133242335525545412413531322133241354132224445245554314343514321441352423335153435421,initStarOpponent=5553554321152531313243254525433245235511255212545255455124352135243521435534142523311233214145442333,id=25,code=0,msg=成功]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=1355123121531225343224335512242235431442411215252411153552444233131155541121412444354423432255452532,initStarOpponent=1125253225553315215535441115413424323324344142434254214443432132255443535241454144151541452142114422,id=26,code=0,msg=成功]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4352232225322311131351555551521125315433123412452544144252424333542545342445122312322134152112411234,initStarOpponent=3221131543431241512535525515431452413355351251542222422553422231423241115324443145243344345453525254,id=24,code=0,msg=成功]
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:13:32
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5553554321152531313243254525433245235511255212545255455124352135243521435534142523311233214145442333,initStarOpponent=2152542134125531133242335525545412413531322133241354132224445245554314343514321441352423335153435421,id=25,code=0,msg=成功]
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:14:30
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:31
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-03 16:14:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-03 16:14:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-03 16:14:32
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2325353343151445344243435413432551331535551432322243553142525455324335344135522525422324223141144311,initStarOpponent=2131144425444425213135545424523214552335124533144452353132132431434345523533155213143353415332414143,id=27,code=0,msg=成功]
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:37
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3521431253211421334411111522231345513234451345121344335355444551334515355523412315543135445113242433,initStarOpponent=1455341521125344133455141142315313542255112354235535425532432324151351351453521132152452145523534542,id=28,code=0,msg=成功]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=3434113241554211125133145511222243443513254515424114153231524154122211552555515422555554543353452143,initStarOpponent=5225145525312344231415111231145331152425245253425433241434233323452142244414344155313154542344212312,id=29,code=0,msg=成功]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2131144425444425213135545424523214552335124533144452353132132431434345523533155213143353415332414143,initStarOpponent=2325353343151445344243435413432551331535551432322243553142525455324335344135522525422324223141144311,id=27,code=0,msg=成功]
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-03 16:14:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1455341521125344133455141142315313542255112354235535425532432324151351351453521132152452145523534542,initStarOpponent=3521431253211421334411111522231345513234451345121344335355444551334515355523412315543135445113242433,id=28,code=0,msg=成功]
+
+2018-04-03 16:15:19
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 16:15:19
+[ERROR]-[Thread: qtp47433088-24]-[com.jfinal.core.ActionHandler.handle()]: /battleing?id=13&position=65&score=5000&deviceid=deviceid13
+java.lang.ClassCastException: java.lang.Integer cannot be cast to java.lang.String
+	at com.mingsu.controller.IndexController.setScore(IndexController.java:262)
+	at com.mingsu.controller.IndexController.battleing(IndexController.java:241)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-04-03 16:16:50
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-03 16:16:57
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 16:16:57
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = score + #score#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 16:16:57
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1004,msg=胜利]
+
+2018-04-03 16:19:30
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 16:19:30
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = score + #score#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-03 16:19:30
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battleing()]: +++req login,res = BattleingRes[score=<null>,position=<null>,code=1004,msg=胜利]
+
+2018-04-03 17:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e461b441820]::executor[d68fb29d3deacfda341be1b4000001628abc0282198e05ba]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 17:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d5ee5c1223deacfda000001628a947ff87b40fec0]::executor[d68fb29d5ee5c1222bf11e9f000001628abc028341eae6d0]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 17:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d5ee5c1223deacfda000001628a947ffd743cb595]::executor[d68fb29d5ee5c12223fb4dc0000001628abcece27cb23179]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 17:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e4b694f6ccb]::executor[d68fb29d3deacfda1afdd9ed000001628abcece26c88f471]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 18:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d5ee5c1223deacfda000001628a947ff87b40fec0]::executor[d68fb29d5ee5c12237d6ad5a000001628af2f10226cc3d30]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 18:00:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e461b441820]::executor[d68fb29d3deacfda17d648dc000001628af2f1036e10c458]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-03 18:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d5ee5c1223deacfda000001628a947ffd743cb595]::executor[d68fb29d5ee5c12266825032000001628af3db696adc3236]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-03 18:01:00
+[INFO]-[Thread: cron4j::scheduler[d68fb29d3deacfda02f410f8000001628a603e4b694f6ccb]::executor[d68fb29d3deacfda57a286a8000001628af3db8036c03229]]-[com.mingsu.job.Task2.run()]: 222222

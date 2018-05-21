@@ -1,0 +1,1267 @@
+
+2018-04-09 10:28:42
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2215231253521352114214422543224543332454541155411521235144424144111351542123314352341245524221543134,initStarOpponent=2521521212445155312342251114543341125415353453452252432113225332253351315512111432133244234441314343,id=30,code=0,msg=成功]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2215524445134121415251212523342234315445243335235111425342223555325312412355542555321335155324553334,initStarOpponent=1223251213341531455131442124155435251311123344212342115343332543155141145125524324133313214431423441,id=31,code=0,msg=成功]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=5534333515111444231423524543444321125313153335431311455313543235332335444115155111553144443354221445,initStarOpponent=3454133445531153431545332131541312344153425243215441134442413243345321353423332351311115222524531553,id=32,code=0,msg=成功]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2521521212445155312342251114543341125415353453452252432113225332253351315512111432133244234441314343,initStarOpponent=2215231253521352114214422543224543332454541155411521235144424144111351542123314352341245524221543134,id=30,code=0,msg=成功]
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:29:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1223251213341531455131442124155435251311123344212342115343332543155141145125524324133313214431423441,initStarOpponent=2215524445134121415251212523342234315445243335235111425342223555325312412355542555321335155324553334,id=31,code=0,msg=成功]
+
+2018-04-09 10:29:53
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=null,positionList=[],code=0,msg=成功]
+
+2018-04-09 10:30:13
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=1000,positionList=[65],code=0,msg=成功]
+
+2018-04-09 10:30:27
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=1000,positionList=[],code=0,msg=成功]
+
+2018-04-09 10:30:42
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=1500,positionList=[62, 65],code=0,msg=成功]
+
+2018-04-09 10:31:15
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:31:15
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.queryScore()]: +++in UserService queryScore sql = select score from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 10:31:15
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = score + #score#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:31:16
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.updateUserGarde()]: +++in UserService updateUserGarde sql = update xmxx_user_grade
+set grade = #grade#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:31:16
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=1500,positionList=[],code=1004,msg=胜利]
+
+2018-04-09 10:35:24
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1243431532135222521513355241143415454435445222523412331333254512315411355414522434315533553515132111,initStarOpponent=5255313155131515412132211124522423135543231222112214511133431252445322132241132331133152341134515422,id=33,code=0,msg=成功]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4441241514225515131555541211424242434144342424155355352111133245311255443513122424144342525143315522,initStarOpponent=5235122553253123255424534231135523153111135513343243444435232434213211424332434132345312442323551344,id=34,code=0,msg=成功]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=1432145424152553353521322514344525115522511412115131253132222413432351515355334245153223151451214341,initStarOpponent=2533552144142352212331511524342552445535445232311534211435214534113251345321414524513352424514543312,id=35,code=0,msg=成功]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5255313155131515412132211124522423135543231222112214511133431252445322132241132331133152341134515422,initStarOpponent=1243431532135222521513355241143415454435445222523412331333254512315411355414522434315533553515132111,id=33,code=0,msg=成功]
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:35:29
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5235122553253123255424534231135523153111135513343243444435232434213211424332434132345312442323551344,initStarOpponent=4441241514225515131555541211424242434144342424155355352111133245311255443513122424144342525143315522,id=34,code=0,msg=成功]
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.queryScore()]: +++in UserService queryScore sql = select score from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.setScore()]: +++old score = 40,deviceid = deviceid11
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = score + #score#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.updateUserGarde()]: +++in UserService updateUserGarde sql = update xmxx_user_grade
+set grade = #grade#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:35:54
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=null,positionList=[],code=1004,msg=胜利]
+
+2018-04-09 10:54:30
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,initStarOpponent=1155311544524311445311422244415131342332521222415415521121524323511345442141522335121323444242311551,id=36,code=0,msg=成功]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,initStarOpponent=2542344335112342152531255135434312415322423254341115544111245524312425215144131241515353143235344421,id=37,code=0,msg=成功]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=2325124424542425424224442315145452241253113253112521554131231442535424235143344113314312442552335212,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1155311544524311445311422244415131342332521222415415521121524323511345442141522335121323444242311551,initStarOpponent=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,id=36,code=0,msg=成功]
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:36
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2542344335112342152531255135434312415322423254341115544111245524312425215144131241515353143235344421,initStarOpponent=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,id=37,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1155311544524311445311422244415131342332521222415415521121524323511345442141522335121323444242311551,initStarOpponent=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,id=36,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid12, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,initStarOpponent=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,id=36,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2542344335112342152531255135434312415322423254341115544111245524312425215144131241515353143235344421,initStarOpponent=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,id=37,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid14, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,initStarOpponent=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,id=37,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,initStarOpponent=4324422144134121232541255323122314515121431215451411434352144244355433243541423222251424413112255352,id=38,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1155311544524311445311422244415131342332521222415415521121524323511345442141522335121323444242311551,initStarOpponent=5453244234255344151535411342431245421224314552152334133311153222114252431411453345211552342324215144,id=36,code=0,msg=成功]
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 10:54:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2542344335112342152531255135434312415322423254341115544111245524312425215144131241515353143235344421,initStarOpponent=5512325324411512512132113524233212445541545245222141352432142323331125421354423421321441213511155144,id=37,code=0,msg=成功]
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.updateBattle()]: +++in UserService updateBattle sql = update xmxx_user_battle 
+set winner = #winner#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryScore()]: +++in UserService queryScore sql = select score from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.setScore()]: +++old score = 42,deviceid = deviceid11
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.updateUserScore()]: +++in UserService updateUserScore sql = update xmxx_user_score 
+set score = #score#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.updateUserGarde()]: +++in UserService updateUserGarde sql = update xmxx_user_grade
+set grade = #grade#,edit_time = #edit_time#
+where id = #id#
+
+
+2018-04-09 10:54:59
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=null,positionList=[],code=1004,msg=胜利]
+
+2018-04-09 11:00:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dc9774b6528]::executor[e8ca91f45ee5c1225fc870bd00000162a85893824493ca3a]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-09 11:01:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dcf00aa578a]::executor[e8ca91f45ee5c1220d27e34c00000162a8597de203061345]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,initStarOpponent=4423422152153231441133123151211344422435534531225515423553215131412145152544154451215355412542445523,id=39,code=0,msg=成功]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,initStarOpponent=3241144224312232345145421123141455212251552144243125414114224342422114541322324155541454432323232523,id=40,code=0,msg=成功]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,id=0,code=1002,msg=等待匹配对手]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=1143213443452114222341213521124515313125351244223525525531555514453552315343521512355214313151252241,id=41,code=0,msg=成功]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4423422152153231441133123151211344422435534531225515423553215131412145152544154451215355412542445523,initStarOpponent=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,id=39,code=0,msg=成功]
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:04:52
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3241144224312232345145421123141455212251552144243125414114224342422114541322324155541454432323232523,initStarOpponent=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,id=40,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4423422152153231441133123151211344422435534531225515423553215131412145152544154451215355412542445523,initStarOpponent=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,id=39,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid12, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,initStarOpponent=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,id=39,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3241144224312232345145421123141455212251552144243125414114224342422114541322324155541454432323232523,initStarOpponent=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,id=40,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid14, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,initStarOpponent=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,id=40,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,id=41,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,id=41,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,id=41,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,id=41,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid15, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid15
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,initStarOpponent=3541435413513433314153125343442443515214553153352542212513153512431235451223335325435345551441154455,id=41,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4423422152153231441133123151211344422435534531225515423553215131412145152544154451215355412542445523,initStarOpponent=3425135255554133543252314452333223542353253555235525511524322125232332354441533314122414344254141233,id=39,code=0,msg=成功]
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryBattleID()]: +++in UserService queryBattleID sql = select id from xmxx_user_battle 
+where winner is null
+and ((deviceidA = ? and deviceidB = ?) or (deviceidA = ? and deviceidB = ? ))
+order by create_time desc
+
+
+2018-04-09 11:05:16
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3241144224312232345145421123141455212251552144243125414114224342422114541322324155541454432323232523,initStarOpponent=4125312223215353123251423335123454545231451254142322231142345521153522212343155134314533155234334525,id=40,code=0,msg=成功]
+
+2018-04-09 11:05:22
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=null,positionList=[],code=0,msg=成功]
+
+2018-04-09 11:05:36
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=null,positionList=[],code=0,msg=成功]
+
+2018-04-09 11:05:48
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battleing()]: +++req battleing,res = BattleingRes[score=2400,positionList=[13, 12, 12, 12, 12, 12],code=0,msg=成功]
+
+2018-04-09 11:31:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-09 11:31:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:31:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 11:31:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryScoreID()]: +++in UserService queryScoreID sql = select id from xmxx_user_score where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.initUserScore()]: +++in UserService initUserScore sql = insert into xmxx_user_score(
+			deviceid
+			,score
+			) 
+		values (
+			#deviceid#
+			,0
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.queryGradeID()]: +++in UserService queryGradeID sql = select id from xmxx_user_grade where deviceid = ?
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.service.UserService.initUserGrade()]: +++in UserService initUserGrade sql = insert into xmxx_user_grade(
+			deviceid
+			,grade
+			) 
+		values (
+			#deviceid#
+			,1
+				) 
+
+
+2018-04-09 11:31:15
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[code=0,msg=成功]
+
+2018-04-09 12:00:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dc9774b6528]::executor[e8ca91f45ee5c1221d19273800000162a88f82025e3ba908]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-09 12:01:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dcf00aa578a]::executor[e8ca91f45ee5c1223a2ed92f00000162a8906c634519c08c]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-09 13:00:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dc9774b6528]::executor[e8ca91f45ee5c1221fb6e3e700000162a8c670852b173f6b]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-09 13:01:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dcf00aa578a]::executor[e8ca91f45ee5c12272a3defe00000162a8c75ae7621000a1]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-09 14:00:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dc9774b6528]::executor[e8ca91f45ee5c1222664961a00000162a8fd5f0848f25eb9]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-09 14:01:00
+[INFO]-[Thread: cron4j::scheduler[e8ca91f45ee5c1223deacfda00000162a8538dcf00aa578a]::executor[e8ca91f45ee5c1223c7173bf00000162a8fe496160c0242c]]-[com.mingsu.job.Task2.run()]: 222222

@@ -1,0 +1,782 @@
+
+2018-03-28 15:58:27
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 15:58:38
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-03-28 15:59:12
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 16:00:00
+[INFO]-[Thread: cron4j::scheduler[2fec174419643eda045a673c000001626b9e33656a4ea335]::executor[2fec174419643eda71d3f679000001626b9eec0354531057]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-28 16:01:00
+[INFO]-[Thread: cron4j::scheduler[2fec174419643eda045a673c000001626b9e336b3c8e6de5]::executor[2fec174419643eda518f2876000001626b9fd6617021dc19]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 16:38:25
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 16:39:14
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-28 16:39:31
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8086 already in use!
+java.lang.IllegalStateException: port: 8086 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-28 16:40:58
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 16:41:01
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-28 16:42:26
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 16:42:33
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,code=0000,msg=成功]
+
+2018-03-28 17:00:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb15ee5c1223deacfda000001626bc21bc01454d99c]::executor[fc2abdb15ee5c12279ea7e86000001626bd5da834552f13b]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-28 17:00:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb10a8208295ee5c122000001626bc5c7462d277271]::executor[fc2abdb10a82082939bdf301000001626bd5da8311a5d576]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-28 17:01:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb15ee5c1223deacfda000001626bc21bc6099e4790]::executor[fc2abdb15ee5c1224bfb0218000001626bd6c4e14d98edcf]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 17:01:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb10a8208295ee5c122000001626bc5c74a0b750e5a]::executor[fc2abdb10a820829592b8638000001626bd6c4e36d4edb5c]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 17:59:46
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8088 already in use!
+java.lang.IllegalStateException: port: 8088 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-28 18:00:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb15ee5c1223deacfda000001626bc21bc01454d99c]::executor[fc2abdb15ee5c1220b3f19eb000001626c0cc9032b46bd20]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-28 18:00:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb10a8208295ee5c122000001626bc5c7462d277271]::executor[fc2abdb10a8208294e2b5fab000001626c0cc90465201c5e]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-28 18:00:03
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:00:10
+[ERROR]-[Thread: qtp47433088-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+java.lang.NullPointerException
+	at com.jfinal.core.Controller.getPara(Controller.java:146)
+	at com.mingsu.controller.IndexController$Wait.<init>(IndexController.java:84)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-28 18:01:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb10a8208295ee5c122000001626bc5c74a0b750e5a]::executor[fc2abdb10a820829047a082a000001626c0db3612b634568]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 18:01:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb15ee5c1223deacfda000001626bc21bc6099e4790]::executor[fc2abdb15ee5c1221afab0dd000001626c0db3611bc94d3d]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 18:01:00
+[INFO]-[Thread: cron4j::scheduler[fc2abdb1045a673c4b2f965f000001626c0cd72d1b991a45]::executor[fc2abdb1045a673c5a1cd7b5000001626c0db3640338040e]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-28 18:01:29
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:01:31
+[ERROR]-[Thread: qtp1031479691-21]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+java.lang.NullPointerException
+	at com.jfinal.core.Controller.getPara(Controller.java:146)
+	at com.mingsu.controller.IndexController$Wait.<init>(IndexController.java:84)
+	at com.mingsu.controller.IndexController.battle(IndexController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-28 18:04:11
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:05:45
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:05:48
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8087 already in use!
+java.lang.IllegalStateException: port: 8087 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-28 18:05:58
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = null
+
+2018-03-28 18:05:58
+[ERROR]-[Thread: qtp1591168053-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:08:44
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:08:49
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 11
+
+2018-03-28 18:08:49
+[ERROR]-[Thread: qtp47433088-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:09:32
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 11
+
+2018-03-28 18:09:32
+[ERROR]-[Thread: qtp47433088-23]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:10:52
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:10:54
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 11
+
+2018-03-28 18:10:54
+[ERROR]-[Thread: qtp1060761436-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:13:03
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:13:09
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 11
+
+2018-03-28 18:13:09
+[ERROR]-[Thread: qtp1652249164-25]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:13:21
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-28 18:13:52
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8087 already in use!
+java.lang.IllegalStateException: port: 8087 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:39)
+
+2018-03-28 18:13:57
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = null
+
+2018-03-28 18:13:57
+[ERROR]-[Thread: qtp1652249164-25]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=123
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:14:24
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 123
+
+2018-03-28 18:14:24
+[ERROR]-[Thread: qtp1652249164-26]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:14:46
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 123
+
+2018-03-28 18:14:46
+[ERROR]-[Thread: qtp1652249164-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:15:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:15:31
+[ERROR]-[Thread: qtp240659991-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:15:41
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 123
+
+2018-03-28 18:15:53
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,res = BattleRes[battleType=1,code=0000,msg=成功]
+
+2018-03-28 18:16:10
+[ERROR]-[Thread: qtp240659991-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:16:12
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = null
+
+2018-03-28 18:16:24
+[ERROR]-[Thread: qtp240659991-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:17:41
+[ERROR]-[Thread: qtp240659991-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:21:28
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:21:33
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 1235
+
+2018-03-28 18:21:33
+[ERROR]-[Thread: qtp491476979-23]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:21:54
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-28 18:21:59
+[ERROR]-[Thread: qtp83770753-27]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:22:04
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 1235
+
+2018-03-28 18:22:19
+[ERROR]-[Thread: qtp83770753-25]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=1235
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-03-28 18:22:26
+[INFO]-[Thread: Wait Thread]-[com.mingsu.controller.IndexController$Wait.run()]: +++req battle,waitUser from redis = 1235

@@ -1,0 +1,564 @@
+
+2018-04-02 09:31:58
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0000320331140101220242221343223130013422222030140441213222140131424432220224341001143421102444120202,initStarOpponent=1332124324140340132332012342010000242234313211403300213201340130443231413210033030044132224130101322,code=0,msg=成功]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0411320314240340031232142411424101323214201303130344143114021123441433210000034034222140440132021040,initStarOpponent=3001202024204240242411404223222131210204310342400124233232421422032201312311423003442111402020240212,code=0,msg=成功]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=1200103311440124312321332222003341304442113044023010434103443422034134333003304313304040401404204324,initStarOpponent=4241414140132041020304202224433431332140403243004432214301141431342211143341043411012101043210222214,code=0,msg=成功]
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid1, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-04-02 09:32:04
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1332124324140340132332012342010000242234313211403300213201340130443231413210033030044132224130101322,initStarOpponent=0000320331140101220242221343223130013422222030140441213222140131424432220224341001143421102444120202,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:38:39
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3142420331213003231302434222314112204322211044120320423423304434404034332141421443421023140132401432,initStarOpponent=0300142433102044202320440141031124143132003040004021004344021301132004423241140320113222441202440442,code=0,msg=成功]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0030033211123311411124131241014230411332322434042143442231211102310022131320023202403130004400403140,initStarOpponent=4342031044033420244421334120232212441413314420203002422210424402411211314233011004023024213200104323,code=0,msg=成功]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=3432104334222000003134104141030144022201142100401324103122114221303334040013141411214133404233430223,code=0,msg=成功]
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid1, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:39:26
+[ERROR]-[Thread: qtp1031479691-24]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid1
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-04-02 09:39:26
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid3, nowUser from redis = deviceid3,opponentUser from redis = deviceid4
+
+2018-04-02 09:39:26
+[ERROR]-[Thread: qtp1031479691-22]-[com.jfinal.core.ActionHandler.handle()]: /battle?deviceid=deviceid3
+com.jfinal.render.RenderException: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:62)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:108)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.RuntimeException: File not found : /Users/zhangjack/workspace/xmxx/src/main/webapp/battle.html
+	at com.jfinal.template.source.FileSource.getContent(FileSource.java:70)
+	at com.jfinal.template.Engine.buildTemplateBySourceFactory(Engine.java:153)
+	at com.jfinal.template.Engine.getTemplate(Engine.java:138)
+	at com.jfinal.render.TemplateRender.render(TemplateRender.java:60)
+	... 25 more
+
+2018-04-02 09:39:53
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid1, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0300142433102044202320440141031124143132003040004021004344021301132004423241140320113222441202440442,initStarOpponent=3142420331213003231302434222314112204322211044120320423423304434404034332141421443421023140132401432,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid2, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3142420331213003231302434222314112204322211044120320423423304434404034332141421443421023140132401432,initStarOpponent=3142420331213003231302434222314112204322211044120320423423304434404034332141421443421023140132401432,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid3, nowUser from redis = deviceid3,opponentUser from redis = deviceid4
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4342031044033420244421334120232212441413314420203002422210424402411211314233011004023024213200104323,initStarOpponent=0030033211123311411124131241014230411332322434042143442231211102310022131320023202403130004400403140,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid4, nowUser from redis = deviceid3,opponentUser from redis = deviceid4
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0030033211123311411124131241014230411332322434042143442231211102310022131320023202403130004400403140,initStarOpponent=0030033211123311411124131241014230411332322434042143442231211102310022131320023202403130004400403140,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid5, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid5
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid5, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid5
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid5, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid5
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid5, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid5
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid5, nowUser from redis = MCH_HUIEUDB8364HS8,opponentUser from redis = deviceid5
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,initStarOpponent=2314412142131401242340404222220321124220010044404330141331322040143123344434114130432312043031402210,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid1, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0300142433102044202320440141031124143132003040004021004344021301132004423241140320113222441202440442,initStarOpponent=3142420331213003231302434222314112204322211044120320423423304434404034332141421443421023140132401432,code=0,msg=成功]
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid3, nowUser from redis = deviceid3,opponentUser from redis = deviceid4
+
+2018-04-02 09:40:00
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=4342031044033420244421334120232212441413314420203002422210424402411211314233011004023024213200104323,initStarOpponent=0030033211123311411124131241014230411332322434042143442231211102310022131320023202403130004400403140,code=0,msg=成功]
+
+2018-04-02 09:43:07
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 09:43:51
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid1
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=3412313310221124322210304222430441221334122112420404034442430013104223344032423044143333220303312301,initStarOpponent=2022302133224024140444312020003023431022101101021103214243341131322424210214134440243441023120213304,code=0,msg=成功]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid3
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=0113132222004332102230424430112210401043304404420343143412041110022141431124001323000130441003020421,initStarOpponent=1344202301200044021413240000220410414344431100423030144434020344400343120202012021242000101230212234,code=0,msg=成功]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid5
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid5
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid5
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid5
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid5
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=2441200321421233423421223432232331141303341104042133044441123132104441212023234220333232231120231340,initStarOpponent=3002102321404201412010300344423040123410402201411141101041022301230441313213101020301144430122110303,code=0,msg=成功]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid1, nowUser from redis = deviceid1,opponentUser from redis = deviceid2
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2022302133224024140444312020003023431022101101021103214243341131322424210214134440243441023120213304,initStarOpponent=3412313310221124322210304222430441221334122112420404034442430013104223344032423044143333220303312301,code=0,msg=成功]
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid3, nowUser from redis = deviceid3,opponentUser from redis = deviceid4
+
+2018-04-02 09:43:58
+[INFO]-[Thread: qtp491476979-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1344202301200044021413240000220410414344431100423030144434020344400343120202012021242000101230212234,initStarOpponent=0113132222004332102230424430112210401043304404420343143412041110022141431124001323000130441003020421,code=0,msg=成功]
+
+2018-04-02 10:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf5eb630d1000001628415210666e7285c]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 10:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a82082945089f3b00000162841521065bf12792]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 10:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf69bff8250000016284160b6356cc0d01]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 10:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a82082936d3e8370000016284160b642fd1550a]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 11:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf209fda1a00000162844c0f821ec79098]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 11:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a820829544b0d4c00000162844c0f8269e6bba3]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 11:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf3bb83cdb00000162844cf9e241edd757]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 11:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208294f268dbf00000162844cf9e279deec99]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 11:56:21
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid11
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=1343454155415513252342233514153514251254525455335344335444131123323221313235155152134451551243453534,initStarOpponent=2545321212442131431343444433233144444214344335355321321324142242431243531321524353315131114312134334,code=0,msg=成功]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid13
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=5515141243321321251552552454331532531215344312331154142125443223442421225154243531533223543554241123,initStarOpponent=2334224243131354225334344244331341544242313153214522312351211543544155424134534152334332231312321441,code=0,msg=成功]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  1, deviceid = deviceid15
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  2, deviceid = deviceid15
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  3, deviceid = deviceid15
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  4, deviceid = deviceid15
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-23]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=<null>,initStarOpponent=<null>,code=1002,msg=等待匹配对手]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,times =  5, deviceid = deviceid15
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.service.UserService.addBattle()]: +++in UserService addBattle sql = insert into xmxx_user_battle(
+			deviceidA
+			,deviceidB
+			,create_time
+			) 
+		values (
+			#deviceidA#
+			,#deviceidB#
+			,#create_time#
+				) 
+
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-21]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=0,initStarMine=4154334235141324445551241534232111325424415143515131322533414411153353313521322515122134355145553144,initStarOpponent=5154125432251335244215155242221321431232433543244445555453341514233113213344252433421555224525531444,code=0,msg=成功]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid11, nowUser from redis = deviceid11,opponentUser from redis = deviceid12
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-24]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2545321212442131431343444433233144444214344335355321321324142242431243531321524353315131114312134334,initStarOpponent=1343454155415513252342233514153514251254525455335344335444131123323221313235155152134451551243453534,code=0,msg=成功]
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: User A Polling start,deviceid = deviceid13, nowUser from redis = deviceid13,opponentUser from redis = deviceid14
+
+2018-04-02 11:56:27
+[INFO]-[Thread: qtp47433088-22]-[com.mingsu.controller.IndexController.battle()]: +++req battle,res = BattleRes[battleType=1,initStarMine=2334224243131354225334344244331341544242313153214522312351211543544155424134534152334332231312321441,initStarOpponent=5515141243321321251552552454331532531215344312331154142125443223442421225154243531533223543554241123,code=0,msg=成功]
+
+2018-04-02 12:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf11d6e3af000001628482fe0238514a9f]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 12:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a820829575c049d000001628482fe027beaa34b]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 12:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa382d954f68]::executor[4f8792910b16dedf5be1546a000001628482fe0418e623c8]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 12:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa3d65869d45]::executor[4f8792910b16dedf0ff224ab000001628483e86211f07d42]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 12:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf42de5b73000001628483e8621f815be3]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 12:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a82082903353d52000001628483e8626ea88322]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 13:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa382d954f68]::executor[4f8792910b16dedf2ff6afba0000016284b9ec871edf9441]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 13:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a82082939ff62d00000016284b9ec86032ce837]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 13:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf1a33cda60000016284b9ec86026f0bce]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 13:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa3d65869d45]::executor[4f8792910b16dedf1a8116560000016284bad6e2049ca007]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 13:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf4d2d1f6d0000016284bad6e207680b1d]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 13:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a82082969153cd40000016284bad6e27122e9b3]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 14:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa382d954f68]::executor[4f8792910b16dedf4bcfa53e0000016284f0db035a692d31]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 14:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf634ec3900000016284f0db0356c3b68a]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 14:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a820829385465c10000016284f0db032cd68093]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 14:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf1f43a98b0000016284f1c5627bb290c9]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 14:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208295d333e3f0000016284f1c5637ae94b82]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 14:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa3d65869d45]::executor[4f8792910b16dedf009ddbde0000016284f1c563335a6f50]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 15:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf0ba4af76000001628527c98341e33afe]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 15:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa382d954f68]::executor[4f8792910b16dedf0124e48e000001628527c9834e05c515]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 15:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a820829772d4c88000001628527c9837e396581]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 15:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa3d65869d45]::executor[4f8792910b16dedf33079c9e000001628528b3e11a9fa025]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 15:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208296c3c6feb000001628528b3e14d9c431e]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 15:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf013b5ab7000001628528b3e14fb6f209]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 16:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a8208297776c5d400000162855eb8020281fbac]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 16:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa382d954f68]::executor[4f8792910b16dedf7b4b5f0c00000162855eb805623a38ee]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 16:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf1491474500000162855eb80426428d11]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 16:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208293603e47000000162855fa26239476078]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 16:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a82082900000162847faa3d65869d45]::executor[4f8792910b16dedf5c8efc3c00000162855fa262779317a0]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 16:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf00558cdd00000162855fa2631aa774f8]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 17:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf6637b753000001628595a68334cfb631]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 17:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a82082973e2d982000001628595a6837c2ed96f]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 17:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf2675da6900000162859690e46c06a47b]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 17:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208295121ca4400000162859690e4499d1704]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 18:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405addd0e3da7e0]::executor[4f8792910a8208296e33940a0000016285cc95033ee414f9]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 18:00:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b895061e0302]::executor[4f8792910b16dedf1314421d0000016285cc950464332eea]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-04-02 18:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910b16dedf0a820829000001628402b89b2d7e8457]::executor[4f8792910b16dedf13515ded0000016285cd7f62361cb56b]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-04-02 18:01:00
+[INFO]-[Thread: cron4j::scheduler[4f8792910a8208295ee5c122000001628405ade22a2a646d]::executor[4f8792910a8208293d03a85f0000016285cd7f626fba6737]]-[com.mingsu.job.Task2.run()]: 222222

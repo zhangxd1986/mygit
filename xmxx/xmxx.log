@@ -1,0 +1,35 @@
+
+2018-04-25 16:25:21
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-04-25 16:26:08
+[INFO]-[Thread: qtp1245614567-21]-[com.mingsu.service.UserService.addMaiDian()]: +++in UserService addMaiDian sql = insert into xmxx_maidian(
+			deviceid
+			,mdtype
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#mdtype#
+			,#create_time#
+				) 
+
+
+2018-04-25 16:26:08
+[INFO]-[Thread: qtp1245614567-21]-[com.mingsu.controller.IndexController.maidian()]: +++req maidian,res = com.mingsu.res.BaseRes@3efbb1d8
+
+2018-04-25 16:26:52
+[INFO]-[Thread: qtp1245614567-22]-[com.mingsu.service.UserService.addMaiDian()]: +++in UserService addMaiDian sql = insert into xmxx_maidian(
+			deviceid
+			,mdtype
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#mdtype#
+			,#create_time#
+				) 
+
+
+2018-04-25 16:26:52
+[INFO]-[Thread: qtp1245614567-22]-[com.mingsu.controller.IndexController.maidian()]: +++req maidian,res = com.mingsu.res.BaseRes@3e12e019

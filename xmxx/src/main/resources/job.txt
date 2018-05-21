@@ -1,0 +1,11 @@
+cron4j = task1,task2
+
+task1.cron = 0 * * * *
+task1.class = com.mingsu.job.Task1
+task1.deamon = true
+task1.enable = true
+
+task2.cron = 1 * * * *
+task2.class = com.mingsu.job.Task2
+task2.deamon = true
+task2.enable = true

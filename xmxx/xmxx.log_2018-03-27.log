@@ -1,0 +1,832 @@
+
+2018-03-27 09:08:20
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:09:20
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8089 already in use!
+java.lang.IllegalStateException: port: 8089 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:41)
+
+2018-03-27 09:11:47
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8089 already in use!
+java.lang.IllegalStateException: port: 8089 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:41)
+
+2018-03-27 09:11:59
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:12:04
+[INFO]-[Thread: qtp1836764361-22]-[com.mingsu.interceptor.LogInterceptor.intercept()]: Before invoking: loginname = null
+
+2018-03-27 09:12:04
+[INFO]-[Thread: qtp1836764361-22]-[com.mingsu.interceptor.LogInterceptor.intercept()]: Before invoking: password = ba85be716df69c74e8daad0398b5aa85
+
+2018-03-27 09:12:05
+[INFO]-[Thread: qtp1836764361-22]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:20:35
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:20:38
+[INFO]-[Thread: qtp1591168053-21]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:22:11
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:22:14
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:22:14
+[ERROR]-[Thread: qtp1031479691-22]-[com.jfinal.core.ActionHandler.handle()]: /login?email=zxd%40126.com&password=ba85be716df69c74e8daad0398b5aa85
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:86)
+	at com.jfinal.plugin.redis.Cache.getJedis(Cache.java:1245)
+	at com.jfinal.plugin.redis.Cache.setex(Cache.java:76)
+	at com.mingsu.controller.IndexController.login(IndexController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.ConnectException: Connection refused
+	at redis.clients.jedis.Connection.connect(Connection.java:155)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:83)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1643)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:861)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 34 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:149)
+	... 41 more
+
+2018-03-27 09:23:47
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:23:48
+[INFO]-[Thread: qtp1591168053-23]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:23:50
+[ERROR]-[Thread: qtp1591168053-23]-[com.jfinal.core.ActionHandler.handle()]: /login?email=zxd%40126.com&password=ba85be716df69c74e8daad0398b5aa85
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.util.Pool.getResource(Pool.java:50)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:86)
+	at com.jfinal.plugin.redis.Cache.getJedis(Cache.java:1245)
+	at com.jfinal.plugin.redis.Cache.setex(Cache.java:76)
+	at com.mingsu.controller.IndexController.login(IndexController.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: java.net.SocketTimeoutException: connect timed out
+	at redis.clients.jedis.Connection.connect(Connection.java:155)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:83)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:1643)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:85)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:861)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:435)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:363)
+	at redis.clients.util.Pool.getResource(Pool.java:48)
+	... 34 more
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at redis.clients.jedis.Connection.connect(Connection.java:149)
+	... 41 more
+
+2018-03-27 09:25:13
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:25:16
+[INFO]-[Thread: qtp1591168053-23]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:45:31
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:45:37
+[INFO]-[Thread: qtp147610680-21]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:45:37
+[INFO]-[Thread: qtp147610680-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = com.mingsu.res.LoginRes@1a74c60b
+
+2018-03-27 09:46:23
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:46:27
+[INFO]-[Thread: qtp147610680-24]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:46:27
+[INFO]-[Thread: qtp147610680-24]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[token=<null>,code=0000,msg=成功]
+
+2018-03-27 09:48:49
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:51:17
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8088 already in use!
+java.lang.IllegalStateException: port: 8088 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:41)
+
+2018-03-27 09:51:37
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:51:43
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:51:43
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[token=<null>,code=0001,msg=登录失败]
+
+2018-03-27 09:54:33
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 09:54:37
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.login()]: +++req login,param = {"email":"zxd@126.com","password":"ba85be716df69c74e8daad0398b5aa85"}
+
+2018-03-27 09:54:37
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:54:37
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[token=<null>,code=0000,msg=成功]
+
+2018-03-27 09:55:22
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.login()]: +++req login,param = {"email":"zxd@126.com","password":"ba85be716df69c74e8daad0398b5aa85"}
+
+2018-03-27 09:55:22
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 09:55:22
+[INFO]-[Thread: qtp1031479691-21]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[token=<null>,code=0000,msg=成功]
+
+2018-03-27 10:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c12200f4d22500000162652ef90425f72c04]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 10:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e067c6cf7f00000162652ef904572d1c3a]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 10:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e0446b78ba00000162652fe3613042489b]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 10:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c122444b705e00000162652fe36150e88423]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 11:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c1220f0ac6b0000001626565e787329d68d9]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 11:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e03679ac99000001626565e787473a1dd9]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 11:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c1222a35606a000001626566d1e501cdae1a]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 11:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e06bf390ba000001626566d1e64e35505a]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 11:52:55
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 11:53:02
+[INFO]-[Thread: qtp147610680-22]-[com.mingsu.controller.IndexController.login()]: +++req login,param = 
+
+2018-03-27 11:53:02
+[INFO]-[Thread: qtp147610680-22]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 11:53:02
+[INFO]-[Thread: qtp147610680-22]-[com.mingsu.controller.IndexController.login()]: +++req login,res = LoginRes[token=<null>,code=0000,msg=成功]
+
+2018-03-27 11:54:39
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 11:54:44
+[INFO]-[Thread: qtp1591168053-22]-[com.mingsu.controller.IndexController.login()]: +++req login,param = 
+
+2018-03-27 11:54:44
+[INFO]-[Thread: qtp1591168053-22]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 11:54:44
+[ERROR]-[Thread: qtp1591168053-22]-[com.jfinal.core.ActionHandler.handle()]: /login?email=zxd%40126.com&password=ba85be716df69c74e8daad0398b5aa85
+java.lang.NullPointerException
+	at com.jfinal.plugin.redis.IKeyNamingPolicy$1.getKeyName(IKeyNamingPolicy.java:31)
+	at com.jfinal.plugin.redis.Cache.keyToBytes(Cache.java:1154)
+	at com.jfinal.plugin.redis.Cache.setex(Cache.java:78)
+	at com.mingsu.controller.IndexController.login(IndexController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-27 12:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c1227564538f00000162659cd6064da3e2a2]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 12:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e007952a2400000162659cd6065dd1e895]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 12:00:40
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 12:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c122191765ae00000162659dc0625fda65fa]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 12:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e01796d62f00000162659dc062653f1f8d]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 12:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f0cebc7274b5fd81100000162659d769541f455ee]::executor[03ea819f0cebc727039ab88b00000162659dc0662f952f6d]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 12:01:36
+[INFO]-[Thread: qtp240659991-28]-[com.mingsu.controller.IndexController.login()]: +++req login,param = 
+
+2018-03-27 12:01:36
+[INFO]-[Thread: qtp240659991-28]-[com.mingsu.service.UserService.findUserByNameAndPwd()]: +++in UserService sql = select * from user where email = ? and password = ?
+
+
+2018-03-27 12:02:37
+[ERROR]-[Thread: qtp240659991-28]-[com.jfinal.core.ActionHandler.handle()]: /login?email=zxd%40126.com&password=ba85be716df69c74e8daad0398b5aa85
+java.lang.NullPointerException
+	at com.jfinal.plugin.redis.IKeyNamingPolicy$1.getKeyName(IKeyNamingPolicy.java:31)
+	at com.jfinal.plugin.redis.Cache.keyToBytes(Cache.java:1154)
+	at com.jfinal.plugin.redis.Cache.setex(Cache.java:78)
+	at com.mingsu.controller.IndexController.login(IndexController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+
+2018-03-27 13:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e0090e716c0000016265d3c4845aa4107c]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 13:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c12223a8013f0000016265d3c4851620c175]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 13:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c1225f99484f0000016265d4aee226f0711f]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 13:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e042133de80000016265d4aee21713af02]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 14:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c122670ba4ad00000162660ab3027d513839]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 14:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e03539fdf700000162660ab3027e5ab7d3]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 14:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c1227738198300000162660b9d6273969801]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 14:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e07b04483700000162660b9d625d5d8824]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 14:36:47
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 14:36:57
+[INFO]-[Thread: qtp1591168053-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,now()
+				) 
+
+
+2018-03-27 14:43:01
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 14:43:10
+[INFO]-[Thread: qtp1591168053-21]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 14:43:37
+[INFO]-[Thread: qtp1591168053-23]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 14:45:02
+[INFO]-[Thread: qtp1591168053-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 14:45:15
+[INFO]-[Thread: qtp1591168053-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 14:45:15
+[ERROR]-[Thread: qtp1591168053-22]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid1221
+com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'deviceid1221' for key 'unique_deviceid'
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:647)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:657)
+	at com.jfinal.plugin.activerecord.Db.save(Db.java:463)
+	at com.mingsu.service.UserService.addUser(UserService.java:52)
+	at com.mingsu.controller.IndexController.login(IndexController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry 'deviceid1221' for key 'unique_deviceid'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2487)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2079)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2013)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5104)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:1998)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeUpdate(DruidPooledPreparedStatement.java:253)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:623)
+	at com.jfinal.plugin.activerecord.DbPro.save(DbPro.java:645)
+	... 34 more
+
+2018-03-27 14:46:17
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 14:46:21
+[INFO]-[Thread: qtp1591168053-24]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 14:46:39
+[INFO]-[Thread: qtp1591168053-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 15:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e035037df4000001626641a1815fabb73f]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 15:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c1222324ad08000001626641a18151988bdc]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 15:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f8000001626635131c326ebd1c]::executor[03ea819f3deacfda60890331000001626641a1837a31325d]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 15:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e05b1215130000016266428be27e00bcd4]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 15:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c12211bbad830000016266428be253008ec3]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 16:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f8000001626635131c326ebd1c]::executor[03ea819f3deacfda455d9b0e000001626678900261d3d386]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 16:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c1222f1df83200000162667890023135d12b]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 16:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e05925060100000162667890036d8f52e3]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 16:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f800000162663513216db2e3eb]::executor[03ea819f3deacfda5f7274730000016266797a6320c566de]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 16:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c122682699920000016266797a6310b4cb61]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 16:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e068c83a0d0000016266797a6406140279]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 17:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f8000001626635131c326ebd1c]::executor[03ea819f3deacfda3be572720000016266af7e830f849d9e]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 17:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c12204e8059e0000016266af7e831f604ff7]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 17:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e0375ce70f0000016266af7e8238c8a755]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 17:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e02e8b3bdd0000016266b068e309eacc09]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 17:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f800000162663513216db2e3eb]::executor[03ea819f3deacfda5350e52c0000016266b068e474ee8588]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 17:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c1227ed7eb9d0000016266b068e45290e73d]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 17:41:32
+[ERROR]-[Thread: main]-[com.jfinal.kit.LogKit.error()]: port: 8087 already in use!
+java.lang.IllegalStateException: port: 8087 already in use!
+	at com.jfinal.server.JettyServerForIDEA.doStart(JettyServerForIDEA.java:89)
+	at com.jfinal.server.JettyServerForIDEA.start(JettyServerForIDEA.java:72)
+	at com.jfinal.core.JFinal.start(JFinal.java:174)
+	at com.mingsu.MsConfig.main(MsConfig.java:41)
+
+2018-03-27 17:41:47
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 17:42:16
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-03-27 17:42:16
+[ERROR]-[Thread: qtp1031479691-22]-[com.jfinal.core.ActionHandler.handle()]: /login?hsman=%E4%B8%89%E6%98%9F&imei=8666666&appversion=1.0&hstype=note&imsi=4600000&channel=SXDV&ip=126.3.2.1&deviceid=deviceid122111
+com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: No value specified for parameter 1
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:109)
+	at com.jfinal.plugin.activerecord.DbPro.queryColumn(DbPro.java:154)
+	at com.jfinal.plugin.activerecord.DbPro.queryNumber(DbPro.java:280)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:178)
+	at com.jfinal.plugin.activerecord.DbPro.queryInt(DbPro.java:183)
+	at com.jfinal.plugin.activerecord.Db.queryInt(Db.java:136)
+	at com.mingsu.service.UserService.userExsit(UserService.java:42)
+	at com.mingsu.controller.IndexController.login(IndexController.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:73)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:83)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1307)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:453)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:560)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1072)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:382)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1006)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:365)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:485)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:926)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:988)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:635)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:628)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.sql.SQLException: No value specified for parameter 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:897)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:886)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:860)
+	at com.mysql.jdbc.PreparedStatement.checkAllParametersSet(PreparedStatement.java:2211)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2191)
+	at com.mysql.jdbc.PreparedStatement.fillSendPacket(PreparedStatement.java:2121)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:1941)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:80)
+	at com.jfinal.plugin.activerecord.DbPro.query(DbPro.java:107)
+	... 37 more
+
+2018-03-27 17:42:56
+[INFO]-[Thread: main]-[com.alibaba.druid.pool.DruidDataSource.init()]: {dataSource-1} inited
+
+2018-03-27 17:42:59
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-03-27 17:42:59
+[INFO]-[Thread: qtp1031479691-22]-[com.mingsu.service.UserService.addUser()]: +++in UserService addUser sql = insert into xmxx_user(
+			deviceid
+			,imsi
+			,imei
+			,hsman
+			,hstype
+			,ip
+			,appversion
+			,channel
+			,create_time
+			) 
+		values (
+			#deviceid#
+			,#imsi#
+			,#imei#
+			,#hsman#
+			,#hstype#
+			,#ip#
+			,#appversion#
+			,#channel#
+			,#create_time#
+				) 
+
+
+2018-03-27 17:43:17
+[INFO]-[Thread: qtp1031479691-23]-[com.mingsu.service.UserService.userExsit()]: +++in UserService userExsit sql = select count(1) from xmxx_user where deviceid = ?
+
+
+2018-03-27 18:00:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac7f6c3124fa]::executor[3248566c045372e01c84cc7a0000016266e66d015e8615eb]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 18:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2903275f4c]::executor[03ea819f5ee5c1226f716c3d0000016266e66d0176209161]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 18:00:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f8000001626635131c326ebd1c]::executor[03ea819f3deacfda3b6e6fa30000016266e66d0138864411]]-[com.mingsu.job.Task1.run()]: 111111
+
+2018-03-27 18:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f5ee5c1223deacfda000001626524be2e1ebd40cd]::executor[03ea819f5ee5c12253051cab0000016266e7576143531420]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 18:01:00
+[INFO]-[Thread: cron4j::scheduler[3248566c045372e0029ad2580000016264ffac861392cd24]::executor[3248566c045372e01531a9890000016266e7576270545b3f]]-[com.mingsu.job.Task2.run()]: 222222
+
+2018-03-27 18:01:00
+[INFO]-[Thread: cron4j::scheduler[03ea819f3deacfda02f410f800000162663513216db2e3eb]::executor[03ea819f3deacfda3da7d5590000016266e757623e958964]]-[com.mingsu.job.Task2.run()]: 222222
